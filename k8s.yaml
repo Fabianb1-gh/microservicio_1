@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: hola-mundo
-          image: chris100500/cu-ms-proyecto1:{{ imageTag }}
+          image: fbust/cu-ms-proyecto1:{{ imageTag }}
           ports:
             - containerPort: 3005
           resources:
