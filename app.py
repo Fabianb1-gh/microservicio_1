@@ -78,7 +78,7 @@ class HolaMundoHandler(http.server.SimpleHTTPRequestHandler):
             result = fetch_users()
             self._send_json_response(result, status=200)
         else:
-            self._send_text_response('<h1>Hola Mundo desde MS1</h1>')
+            self._send_text_response('<h1>Hola Mundo M1</h1>')
 
     def do_POST(self):
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
